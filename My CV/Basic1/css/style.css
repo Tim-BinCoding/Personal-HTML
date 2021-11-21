@@ -1,0 +1,239 @@
+body{
+   
+    margin: 0; padding: 0;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(rgba(73, 145, 25, 0.705), rgb(4, 177, 162));
+
+}
+.form-contianer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+}
+
+.profile-img{
+    width: 100%;
+    height: 45vh;
+}
+
+/* style for contianer left  */
+.contianer-left{
+    /* background-color: rgb(148, 163, 8);  */
+    background-image: linear-gradient(to top, #099b4abe 0%, #a09b0eb4 100%);   
+ 
+}
+.content-left{
+    padding: 15px;
+    padding-top: 0;
+}
+
+h2{
+    color: white;
+    height: 6px;
+}
+.t-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    
+}
+/* for title line that stay at under title */
+.title-line{
+    display: flex;
+    width: 100%;
+    padding: 4px 0 ;
+    margin-bottom: 10px;
+}
+.wht-line{
+    background-color: rgb(250, 212, 212);
+    width: 20%;
+    box-sizing: border-box;
+    height: 2px;
+}
+.blk-line{
+    background-color: rgb(82, 80, 80);
+    width: 80%;
+    box-sizing: border-box;
+    height: 2px;
+}
+.icon-control{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.icon{
+    color: white;
+    padding: 10px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.subtext,.subtext-skill{
+    width: 70%;
+    color: rgba(255, 254, 254, 0.712);
+}
+
+/* contianer for  profile  */
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 46vh;
+}
+.subtext>p ,span{
+    font-size: 12px;
+    margin: 0;
+    margin-left: 20px;
+    width: 160px;
+}
+
+/* line show about ability and skill */
+.line{
+    display: flex;
+    padding: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.line-two{
+    display: flex;
+    width: 100px;
+    box-sizing: border-box;
+}
+.line1-10,.line2-10{
+    width: 100%;
+    height: 5px;
+}
+.line1-9,.line2-9{
+    width: 90%;
+    height: 5px;
+}
+.line1-8,.line2-8{
+    width: 80%;
+    height: 5px;
+}
+.line1-7,.line2-7{
+    width: 70%;
+    height: 5px;
+}
+.line1-6,.line2-6{
+    width: 60%;
+    height: 5px;
+}
+.line1-5,.line2-5{
+    width: 50%;
+    height: 5px;
+}
+.line1-4,.line2-4{
+    width: 40%;
+    height: 5px;
+}
+.line1-3,.line2-3{
+    width: 30%;
+    height: 5px;
+}
+.line1-2,.line2-2{
+    width: 20%;
+    height: 5px;
+}.line1-1,.line2-1{
+    width: 10%;
+    height: 5px;
+}
+.black{
+    height: 3px;
+    background-color: rgb(128, 124, 124);
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: rgb(252, 248, 248);
+}
+/* for paragram in component skill */
+.line>p {
+    width: 120px;
+    font-size: 12px;
+    margin: 0;
+}
+.subtext-skill > span,p {
+    font-size: 12px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/* &&&&&&& the contianer sidebar right &&&&&&&&& */
+
+.contianer-right{
+    padding: 20px 50px;
+    background-image: linear-gradient(to top, #5ee7df 0%, #3d9c06 100%);
+}
+.title-right>h2{
+    color: black;
+}
+.hight-line{
+    height: 20px;
+}
+.sub-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.sub-lst{
+    list-style-type: decimal;
+}
+.sub-h{
+    display: block;
+}
+.contact-smd{
+    display: flex;
+    justify-content: space-between;
+}
+.smd>p{
+    font-size: 12px;
+}
+.boler{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.size-12{
+    font-size: 12px;
+}
+.bol-5{
+    font-weight: bolder;
+}
+.font-siz{
+    font-size: 30px;
+}
+.social-md{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 10px;
+    align-items: center;
+    margin: auto;
+
+}
+.col-red{
+    color: red;
+}
+.col-blue{
+    color: rgb(32, 8, 252);
+    font-size: 16px;
+}
+.ft{
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+

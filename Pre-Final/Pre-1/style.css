@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    margin: auto;
+    width: 98%;
+    display: flex;
+    background-color: rgb(29, 187, 42);
+}
+ nav>ul{
+    display: flex;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+nav>ul>li>a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+.header{
+    margin: auto;
+    width: 98%;
+    height: 150px;
+    background-color: rgb(140, 143, 143);
+    color: white;
+}
+.header>h2{
+position: relative;
+right: 46%;
+left: 46%;
+top: 40%;
+}
+.header>span{
+    position: relative;
+    right: 46%;
+    left: 44%;
+    top: 50%;
+}
+.container{
+    width: 98%;
+    margin: auto;
+    display: flex;
+}
+.container> .left
+{
+    width: 30%;
+    padding: 10px;
+}
+.left>h3,p{
+    margin: 15px 10px;
+}
+.main-left>ul{
+    padding: 10px;
+    background-color: rgb(49, 80, 70);
+    margin: 5px;
+}
+
+.container>.right{
+    width: 70%;
+    padding: 10px;
+}
+.right>h3,p{
+    margin: 15px 10px;
+}
+form{
+    background-color: rgb(93, 95, 94);
+    margin: 10px;
+}
+form>h1{
+    margin: 20px 10px;
+}
+input[type="text"]{
+    width: 45%;
+    padding: 5px;
+    position: relative;
+    margin: 0px 0 0 10px;
+}
+input[type="email"]
+{
+    width: 92.3%;
+    padding: 5px;
+    margin: 4px 0 0 10px;
+}
+input[name="l"]{
+    margin-left: 0;
+}
+input,label{
+    margin: 10px 0;
+    padding: 10px;
+}
+input[type="submit"]
+{
+    width: 40%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(30, 190, 190);
+    margin: 0 0 0 10px;
+}
+input[type="reset"]{
+    width: 40%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(222, 235, 235);
+}
+h3{
+    padding: 5px;
+}
+.tb
+{
+    width: 98%;
+    background-color: rgb(141, 145, 145);
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: rgb(17, 88, 240);
+    padding: 5px 0;
+}
+td{
+    padding: 5px;
+    border: 0px solid ;
+    
+}
+tbody>.col{
+    background-color: white;
+}
+tr,td,th{
+    border: 1px solid;
+}
+
+footer{
+    width: 98%;
+    margin: auto;
+    height: 50px;
+    background:rgb(29, 187, 42);
+    text-align: center;
+}

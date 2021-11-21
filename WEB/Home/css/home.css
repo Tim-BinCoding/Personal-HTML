@@ -1,0 +1,82 @@
+
+body{margin: 0; padding: 0;}
+@media only screen and (min-width: 500px) {
+    body {
+        background-color: rgb(28, 28, 104);
+        padding-top: 40px;
+    }
+    .contianer-screen{
+        position: relative;
+        width: 90%;
+        background-image: linear-gradient(to right,rgb(17, 4, 136), rgb(2, 2, 68));
+        margin: auto;
+        padding-bottom: 20px;
+
+    }
+}
+.wd-body{width: 75%;}
+.m-auto{margin: auto;}
+    .d-flex{display: flex;}
+    .j-content-center{justify-content: center;}
+    .j-content-between{justify-content: space-between;}
+    .j-content-ar{justify-content: space-around;}
+    .al-item-center{align-items: center;}
+    .white-col{color: white;}
+    .blue-col-80{color: blueviolet;}
+    .wrap{flex-wrap: wrap;}
+    .li-item{list-style: none; padding:20px 10px;}
+    .link-control{text-decoration: none; color: rgba(255, 255, 255, 0.678); padding:6px 15px; border-radius: 10px; font-size: 14px;}
+    .bolder{font-weight: bolder;}
+    .blue-bkg{background-color: blue;}
+    .blue-80{background-color: blueviolet;}
+    .link-control:hover{cursor: pointer; background-color: blueviolet;}
+.header{padding-top: 20px;}
+
+/* ********contianer********* */
+.contianer{position: relative; margin-top: 2%;}
+.wd-90{width: 90%;}
+.wd-50{width: 50%;}
+.wd-40{width: 40%;}
+.wd-30{width: 30%;}
+.wd-20{width: 20%;}
+.pd-t-5{padding-top: 5%;}
+.pd-t-10{padding-top: 10%;}
+.pd-t-15{padding-top: 15%;}
+.pd-t-20{padding-top: 20%;}
+.t-center{text-align: center;}
+.mg-t-2{margin-top: 2%;}  .mg-t-4{margin-top: 4%;} .mg-t-6{margin-top: 6%;} .mg-t-8{margin-top: 8%;} .mg-t-10{margin-top: 10%;}
+.sub-t{width: 98px; border-bottom: 2px solid blueviolet;;}
+.dsc{border-left: 4px solid; padding-left: 20px;}
+.btn{
+    padding: 8px 15px; 
+    border: 1px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(17, 4, 136), rgb(2, 2, 68));
+}
+
+/* images of float */
+
+.image-flow{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{width: 40%; height: 50vh;}
+/* for pano or logo of companies */
+.pano{
+    background-color: rgb(28, 28, 104);
+    height: 15vh;
+    border-radius: 10px;
+}
+.stag-lg{height: 10vh;}
+.cut-name{font-size: 16px; padding-top: 4px;}
+.name{font-size: 8px; font-style: oblique;}
+.col{padding-right: 4px;}
+.btn-control{background-color: rgb(2, 2, 68); border: none; padding: 0; width: 10vh;height: 10vh;border-radius: 50px; outline: none;}
+.btn-like{color: rgb(254, 254, 255); font-size: 30px;}
+.j-content-end{justify-content: flex-end;}
+.btn-like:hover{
+    transition-duration: 0.2s; 
+    color: blueviolet;
+}
